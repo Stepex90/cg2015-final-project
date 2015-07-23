@@ -44,11 +44,14 @@ Nella prima zona gli oggetti modellati sono:
 
 - frigorifero (Frigo.js)
 ![immagine](http://www.gruppoincasso.it/prodotti/050920121209195373_pic.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/frigo.png?raw=true)
 
 - bancone (Banco.js)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/bancone.png?raw=true)
 
 - bancone con lavandino (BancoLavandino.js)
 ![immagine](http://www.macchineprofessionali.it/images/stories/virtuemart/product/studio12/lavarm2pssx.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/banconelavandino.png?raw=true)
 
 Nella seconda zona gli oggetti modellati sono:
 
@@ -57,18 +60,23 @@ Nella seconda zona gli oggetti modellati sono:
 
 - tavolo con quattro posti a sedere (TavoloMensa.js)
 ![immagine](http://www.supino.it/images/prodotti/ufficio/accessori-ufficio/tavoli-pieghevoli/tavoli-mensa-ufficio-06.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/tavolomensa.png?raw=true)
 
 - espositore alimenti (Espositore.js)
 ![immagine](http://www.herrmann-grosskuechen.de/root/img/pool/hhlkr_referenzen/UKE_Mensa/1_Salatausgabe_gross.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/espositore.png?raw=true)
 
 - carrello raccolta vassoi (CarrelloMensa.js)
 ![immagine](http://img4.annuncicdn.it/40/fc/40fc872d644c6161dc91bfe3ded96215_orig.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/carrellomensa.png?raw=true)
 
 - cestino (CestinoMensa.js)
 ![immagine](http://www.tuttoscaffali.it/eshop/components/com_virtuemart/shop_image/product/svuota-vassoi_701.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/cestino.png?raw=true)
 
 - distributore bevande (Distributore.js)
 ![immagine](http://acqualys.foreach.it/erogatori/wp-content/uploads/2015/04/acqualys-c1.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/distributore.png?raw=true)
 
 
 
@@ -94,6 +102,7 @@ Nella seconda zona gli oggetti modellati sono:
 Gli oggetti modellati per l'ambiente:
 - sterilizzatore a vapore (Sterilizzatore.js)
 ![immagine](http://www.gilbert-ash.com/databaseImages/prd_1165996__critical_care_washers.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/sterilizzatore.png?raw=true)
 
 - bancone (Banco.js)
 ![immagine](http://fotostore.aruba.it/fotoalbum_automaticlavello_it/Data/0ca827c72b/d0f1d20b7d0.JPG)
@@ -116,13 +125,15 @@ I dipendenti sono dotati di diverse attrezzature, il più comune è il carello d
 Gli oggetti modellati per l'ambiente:
 - carrello delle pulizie (CarrelloPulizie.js)
 ![immagine](http://www.acquistiverdi.it/sites/default/files/imagecache/Original_confirma/images/prodotti/carrello_multiuso_alpha_filmop_0.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/carrellopulizie.png?raw=true)
 
 - lucidatrice pavimenti (Lucidatrice.js)
 ![immagine](http://i00.i.aliimg.com/photo/v0/60169008106_1/Hospital_Floor_Cleaning_Machine_Cart_Battery_Type.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/lucidatrice.png?raw=true)
 
 - segnale pavimento bagnato (Segnale.js)
 ![immagine](http://ecx.images-amazon.com/images/I/31eb8t7s%2BzL.jpg)
-
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/segnale.png?raw=true)
 
 
 ------------------------------------
@@ -150,15 +161,23 @@ Anche nel settore delle panchine per spogliatoi si sono introdotte innovazioni d
 Gli oggetti modellati per l'ambiente
 - armadietto (Armadietto.js)
 ![immagine](http://www.gesgroup.it/wp-content/uploads/2013/05/ARMADI_Variante_L_TI_01-448x238.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/armadietto.png?raw=true)
 
 - panca (Panca.js)
 ![immagine](http://www.tuttoscaffali.it/eshop/components/com_virtuemart/shop_image/product/PF_LE_M_1500.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/panca.png?raw=true)
 
 - water (Water.js)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/water.png?raw=true)
+
 - lavandino (Lavandino.js)
 ![immagine](http://img.archiexpo.it/images_ae/photo-g/lavabo-sospeso-rotondo-moderno-50347-3515619.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/lavandino.png?raw=true)
+
 - asciugamani (Asciugamani.js)
 ![immagine](http://www.cetishop.it/public/foto/MG88P-B-LEM.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/asciugamani.png?raw=true)
+
 - rotolo carta igenica (RotoloCarta.js)
 
 
@@ -176,8 +195,10 @@ E' il luogo dove vengono immagazzinati tutti gli strumenti ospedalieri. E' un am
 Gli oggetti modellati per l'ambiente:
 - scaffali (Scaffali.js)
 ![immagine](http://www.scaffali.biz/images/lo_scaffale.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/scaffale.png?raw=true)
 
 - monitor desktop (MonitorPc.js)
 - torre desktop (TorrePc.js)
 ![immagine](http://www.desktop-driver.com/wp-content/uploads/2013/03/Dell-Dimension-5150-450x337.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/pc.png?raw=true)
 -------------------------------------------------------------------------------
