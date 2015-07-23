@@ -79,17 +79,11 @@ Nella seconda zona gli oggetti modellati sono:
 ![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/distributore.png?raw=true)
 
 
-
-
 ------------------
 
 ##CSSD
 
-------------------
-
  Central Sterile Services Department (CSSD) è un luogo integrato negli ospedali e altre strutture sanitarie che esegue la sterilizzazione e altre azioni sui dispositivi medici, attrezzature e materiali di consumo; per il successivo utilizzo da parte di operatori sanitari in sala operatoria dell'ospedale e anche per altre procedure asettiche.
-
-------------------
 
  Le operazioni consistono solitamente di pulizia dei dispositivi utilizzati in precedenza, come utensili in acciaio inox, con un liquido sterilizzante. Dopo essiccamento del dispositivo su un supporto (non a mano o un panno) Viene avvolto in un sacchetto di carta speciale (chiamato un sacchetto aseptor), nastro sigillato e poi sterilizzata mediante gas o in autoclave a vapore. Una data di scadenza viene scritta sulle apparecchiature o sugli oggetti di consumo che sono inpacchettati, prima di essere consegnato all'utente finale come prodotto sterile. Il processo svolto è facilmente suddividibile in tre fasi come riporato nella figura seguente
 
@@ -111,10 +105,7 @@ Gli oggetti modellati per l'ambiente:
 - scaffali (Scaffale.js)
 - carrelli (Carrello.js)
 
-
-
 -------------------------------------
-
 
 ##House Keeping
 
@@ -135,7 +126,6 @@ Gli oggetti modellati per l'ambiente:
 ![immagine](http://ecx.images-amazon.com/images/I/31eb8t7s%2BzL.jpg)
 ![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/segnale.png?raw=true)
 
-
 ------------------------------------
 
 ##Central Staff Changing
@@ -143,16 +133,11 @@ Gli oggetti modellati per l'ambiente:
 Lo spogliatoio ospedalieri consente allo staff il cambio d'abiti e l'utilizzo dei servizi igenici. Nel recente passato ha subito le più radicali modifiche. 
 Si è passati da locali arredati genericamente con armadietti in lamiera verniciata ad aree qualificate caratterizzate da elementi di arredo dalle precise caratteristiche. Dal tradizionale armadietto metallico, caratterizzato da finiture approssimative, vani soggetti a raccogliere polvere e sporcizia si è passati ad evolutissime attrezzature realizzate con materiali di altissima qualità, ma soprattutto assolutamente inossidabili ed autoestinguenti: laminato massello HPL per fianchi, fondi, ripiani ed ante, alluminio anodizzato per i profili portanti e per le cerniere, acciaio inossidabile e nylon per serrature e finiture.
 
-
-------------------
-
 Non più un unico vano per abiti civili e camici ma due vani verticali separati che presentano alla base uno spazio per le calzature, ed in alto un ripiano su cui appoggiare strumenti od oggetti personali.
 Ma c’è di più. Il tradizionale ripiano terminale orizzontale di chiusura è stato sostituito da un pannello inclinato per facilitare l’igienizzazione e per evitare che sopra l’armadietto possa accumularsi polvere o possano essere sistemati oggetti, indumenti o quant’altro.
 Un notevole rialzo del vano armadietto da terra consente, negli spogliatoi sanitari, di facilitare e di rendere efficienti le operazioni di pulizia e di sanificazione del pavimento.
 Infine i materiali utilizzati non sono soggetti ad ammaccarsi, a rigarsi, a deteriorarsi nel tempo e possono essere trattati, senza alcun problema, con detersivi e disinfettanti di qualsiasi tipo.
 La sicurezza d’uso è garantita dall’assoluta mancanza di parti taglienti o da spigoli vivi come invece accade nelle tipologie in lamiera piegata e saldata.
-
-------------------
 
 Per facilitare aerazione e igienizzazione gli armadietti per gli spogliatoi sanitari presentano fessure sulle ante e sul perimetro dei ripiani, quest’ultima caratteristica per facilitare l’eventuale fuoriuscita dei liquidi di lavaggio.
 Anche nel settore delle panchine per spogliatoi si sono introdotte innovazioni di grande rilievo. Al posto delle tradizionali panche con struttura in ferro verniciato e doghe in legno, soggette a scheggiarsi e non igienizzabili oltre che combustibili sono state introdotte tipologie in alluminio anodizzato, laminato massello, nylon ed acciaio inossidabile, con soluzioni tecniche d’avanguardia.
@@ -181,9 +166,6 @@ Gli oggetti modellati per l'ambiente
 - rotolo carta igenica (RotoloCarta.js)
 
 
-
-
-
 ---------------------------------------------------------------------
 
 ##Central Store (Central Unit)
@@ -201,4 +183,5 @@ Gli oggetti modellati per l'ambiente:
 - torre desktop (TorrePc.js)
 ![immagine](http://www.desktop-driver.com/wp-content/uploads/2013/03/Dell-Dimension-5150-450x337.jpg)
 ![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/pc.png?raw=true)
--------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
