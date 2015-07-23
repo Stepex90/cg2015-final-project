@@ -18,7 +18,7 @@ Vediamo in dettaglio i reparti realizzati:
 
 I dati di partenza sono le dimensioni degli ambienti, ricavati utilizzando il programma Illustrator sulla planimetria riportata nell'immagine successiva
 
-![immagine](/home/stepex/cg2015-final-project/docs/plan1.png)
+![immagine](/home/stepex/cg2015-final-project/docs/plan1.jpg)
 
 --------------------------------------------------------------------
 
