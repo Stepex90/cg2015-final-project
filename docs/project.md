@@ -1,70 +1,122 @@
 ##Progetto Grafica Computazionale 2015 
 
-Stefano Perrone
+realizzato da Perrone Stefano
 
-Il progetto è incentrato sulla realizzazione di una struttura ospedaliera, con dettaglio su alcuni reparti: 
+Il progetto è incentrato sulla realizzazione di un modello 3D fotorealistico di una struttura ospedaliera, con modellazione di oggetti caratteristici per ogni reparto. 
+
+Vediamo in dettaglio i reparti realizzati: 
 
 | __Numero__ | __Descrizione__ |
 | ------ | ------ |
-| 1 | Staff Dinning |
-| 2 | CSSD |
-| 3 | House Keeping |
-| 4 | Central Staff Changing |
+|   1   | Staff Dinning |
+|   2   | CSSD |
+|   3   | House Keeping |
+|   4   | Central Staff Changing |
+|   5   | Central Store |
+
+-----------------------------------------------------------
+
+I dati di partenza sono le dimensioni degli ambienti, ricavati utilizzando il programma Illustrator sulla planimetria riportata nell'immagine successiva
+
+![immagine](/home/stepex/cg2015-final-project/docs/plan1.png)
+
+--------------------------------------------------------------------
+
+Il primo passo nella realizzazione del progetto è stato, a partire dal file in formato svg, la realizzazione del modello, andando a creando i muri perimetrali degli ambienti, per poi suddividerli internamente a seconda delle esigenze di utilizzo, ed aggiungendo i punti di accesso agli stessi, ottenendo il risultato riportato in figura
+
+![immagine](/home/stepex/cg2015-final-project/docs/plan2.png)
+
+---------------------------------------------------------------
 
 
+##Staff Dining
 
-Vediamo in dettaglio i singoli reparti:
+Le mense ospedaliere per il personale sono delle grandi aree di solito a pianta aperta, principalmente suddivise in due zone: 
 
-##Staff Dinning
-![immagine](http://www.alticino.it/europa/complementi/serie prodotti food/mensa/immagini tavoli mensa/blocchi mensa in sala pranzo casa di cura e ricovero.jpg)
+- preparazione degli alimenti
+- servizio degli alimenti
+
+Nella prima zona gli oggetti modellati sono:
+
+- cucina (Cucina.js)
+- frigorifero (Frigo.js)
+- bancone (Banco.js)
+- bancone con lavandino (BancoLavandino.js)
+- scaffale (Scaffale.js)
+
+Nella seconda zona gli oggetti modellati sono:
+
+- tavolo con quattro posti a sedere (TavoloMensa.js)
+- espositore alimenti (Espositore.js)
+- vassoio (Vassoio.js)
+- bicchiere (Bicchiere.js)
+- distributore bevande (Distributore.js)
+- cestino (CestinoMensa.js)
+- carrello raccolta vassoi (CarrelloMensa.js)
 
 ------------------
-
-Le mense ospedaliere per il personale sono delle grandi aree, di solito a pianta aperta, nelle quali sono presenti posti a sedere con tavoli e sedie dove poter consumare i pasti. Inoltre è presente un area doviene effettuato il servizio di ristorazione dove passando con un vassoio viene servito il pasto del giorno posto negli appositi espositori
-
-------------------
-
+![immagine](http://www.supino.it/images/prodotti/ufficio/accessori-ufficio/tavoli-pieghevoli/tavoli-mensa-ufficio-06.jpg)
 ![immagine](http://www.herrmann-grosskuechen.de/root/img/pool/hhlkr_referenzen/UKE_Mensa/1_Salatausgabe_gross.jpg)
-
-------------------
-
-Alla fine del pasto chi ha usufrito del servizio svuota il vassoio nel apposito cestino e ripone il vassoio nel carello
-
-![immagine](http://img4.annuncicdn.it/40/fc/40fc872d644c6161dc91bfe3ded96215_orig.jpg)![immagine](http://www.tuttoscaffali.it/eshop/components/com_virtuemart/shop_image/product/svuota-vassoi_701.jpg)
+![immagine](http://img4.annuncicdn.it/40/fc/40fc872d644c6161dc91bfe3ded96215_orig.jpg)
+![immagine](http://www.tuttoscaffali.it/eshop/components/com_virtuemart/shop_image/product/svuota-vassoi_701.jpg)
+![immagine](http://acqualys.foreach.it/erogatori/wp-content/uploads/2015/04/acqualys-c1.jpg)
+![immagine](http://www.domstore.it/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/l/o/lofra-cucina-gas-plg96gvt-c.jpg)
+![immagine](http://www.gruppoincasso.it/prodotti/050920121209195373_pic.jpg)
+![immagine](http://www.macchineprofessionali.it/images/stories/virtuemart/product/studio12/lavarm2pssx.jpg)
 
 ------------------
 
 ##CSSD
 
-![immagine](http://www.hsa.ie/eng/Image_Library/Hazard_Images/header-CSSD.jpg)
+------------------
+
+ Central Sterile Services Department (CSSD) è un luogo integrato negli ospedali e altre strutture sanitarie che esegue la sterilizzazione e altre azioni sui dispositivi medici, attrezzature e materiali di consumo; per il successivo utilizzo da parte di operatori sanitari in sala operatoria dell'ospedale e anche per altre procedure asettiche.
 
 ------------------
 
- Central Sterile Services Department (CSSD) è un luogo integrato negli ospedali e altre strutture sanitarie che esegue la sterilizzazione e altre azioni sui dispositivi medici, attrezzature e materiali di consumo; per il successivo utilizzo da parte di operatori sanitari in sala operatoria dell'ospedale e anche per altre procedure asettiche, ad esempio cateterizzazione, cuciture della ferita e bendaggio a un medico, la chirurgia, maternità o reparto pediatrico. 
+ Le operazioni consistono solitamente di pulizia dei dispositivi utilizzati in precedenza, come utensili in acciaio inox, con un liquido sterilizzante. Dopo essiccamento del dispositivo su un supporto (non a mano o un panno) Viene avvolto in un sacchetto di carta speciale (chiamato un sacchetto aseptor), nastro sigillato e poi sterilizzata mediante gas o in autoclave a vapore. Una data di scadenza viene scritta sulle apparecchiature o sugli oggetti di consumo che sono inpacchettati, prima di essere consegnato all'utente finale come prodotto sterile. Il processo svolto è facilmente suddividibile in tre fasi come riporato nella figura seguente
 
-------------------
+![immagine](/home/stepex/cg2015-final-project/docs/cssd.jpg)
 
- Le operazioni consistono solitamente di pulizia dei dispositivi utilizzati in precedenza, come utensili in acciaio inox, con un liquido sterilizzante. Dopo essiccamento del dispositivo su un supporto (non a mano o un panno) Viene avvolto in un sacchetto di carta speciale (chiamato un sacchetto aseptor), nastro sigillato e poi sterilizzata mediante gas o in autoclave a vapore, secondo le disposizioni in essere al l'impianto. Una data di scadenza viene scritta sulle apparecchiature o sugli oggetti di consumo in sono avvolti, prima di essere consegnato all'utente finale come un prodotto sterile. Se lungo il percorso di alimentazione, la confezione sigillata è danneggiata o aperta da un operatore sanitario, deve essere restituito al CSSD per la ri-sterilizzazione. Un tecnico di elaborazione sterile è qualcuno che pulisce e sterilizza utilizzato strumenti chirurgici e altre forniture mediche in modo che possano essere ridistribuiti in modo sicuro e riutilizzati su altri pazienti. Questo lavoro è solitamente centralizzata in un reparto speciale della struttura medica.
+- Nella prima fase la strumentazione viene lavata prima immergendoli in un liquido di sterilizzazione e poi viene messa negli sterilizzatori a vapore ad alta temperatura
+- Nella seconda fase la strumentazione sterilizzata viene impacchettata 
+- Nella terza fase vengono immagazzinate
+
+Gli oggetti modellati per l'ambiente:
+- sterilizzatore a vapore (Sterilizzatore.js)
+- bancone (Banco.js)
+- bancone con lavandino (BancoLavandino.js)
+- scaffali (Scaffale.js)
+- carrelli (Carrello.js)
+
+![immagine](http://fotostore.aruba.it/fotoalbum_automaticlavello_it/Data/0ca827c72b/d0f1d20b7d0.JPG)
+![immagine](http://www.gilbert-ash.com/databaseImages/prd_1165996__critical_care_washers.jpg)
+
+-------------------------------------
+
 
 ##House Keeping
 
-![immagine](https://www.osha.gov/SLTC/etools/hospital/housekeeping/images/utility.jpg)
-
-------------------
-
 Pulizia e disinfettazione negli ospedali può prevenire la diffusione di malattie infettive. Inoltre, i dirigenti ospedalieri devono lavorare per aderire ai regolamenti statali e regionali sanitari per garantire un ambiente igienico, sicuro e sano. Le persone che riempiono le posizioni di pulizia negli ospedali devono avere l'impegno e la capacità di coordinare con gli altri membri del team e gestire in modo efficiente gli spazi per servire al meglio i pazienti.
 
-I dipendenti sono dotati di diverse attrezzature, il più comune è il carello delle pulizie come quello riportato in figura. Inoltre hanno in dotazione macchinare scopatura ad umido dei pavimenti e aspirazione meccanica di tappeti e lavaggio dei pavimenti. 
+I dipendenti sono dotati di diverse attrezzature, il più comune è il carello delle pulizie come quello riportato in figura. Inoltre hanno in dotazione macchinari scopatura ad umido dei pavimenti e aspirazione meccanica di tappeti e lavaggio dei pavimenti. 
+
+Gli oggetti modellati per l'ambiente:
+- carrello delle pulizie (CarrelloPulizie.js)
+- lucidatrice pavimenti (Lucidatrice.js)
+- segnale pavimento bagnato (Segnale.js)
+
+![immagine](http://www.acquistiverdi.it/sites/default/files/imagecache/Original_confirma/images/prodotti/carrello_multiuso_alpha_filmop_0.jpg)
+
+![immagine](http://i00.i.aliimg.com/photo/v0/60169008106_1/Hospital_Floor_Cleaning_Machine_Cart_Battery_Type.jpg)
+
+------------------------------------
 
 ##Central Staff Changing
 
-![immagine](http://www.patentverwag.com/images/niguarda_1.jpg)
+Lo spogliatoio ospedalieri consente allo staff il cambio d'abiti e l'utilizzo dei servizi igenici. Nel recente passato ha subito le più radicali modifiche. 
+Si è passati da locali arredati genericamente con armadietti in lamiera verniciata ad aree qualificate caratterizzate da elementi di arredo dalle precise caratteristiche. Dal tradizionale armadietto metallico, caratterizzato da finiture approssimative, vani soggetti a raccogliere polvere e sporcizia si è passati ad evolutissime attrezzature realizzate con materiali di altissima qualità, ma soprattutto assolutamente inossidabili ed autoestinguenti: laminato massello HPL per fianchi, fondi, ripiani ed ante, alluminio anodizzato per i profili portanti e per le cerniere, acciaio inossidabile e nylon per serrature e finiture.
 
-------------------
-
-Lo spogliatoio sanitario, per ovvie ragioni di igiene, rappresenta l’area di servizio dell’ospedale. Esso consente allo staff ospedaliero il cambio d'abiti e l'utilizzo dei servizi igenici. Nel recente passato ha subito le più radicali modifiche. 
-Si è passati da locali arredati genericamente con armadietti in lamiera verniciata ad aree qualificate caratterizzate da elementi di arredo dalle precise caratteristiche. Dal tradizionale armadietto metallico, caratterizzato da finiture approssimative, da recessi e vani soggetti a raccogliere polvere e sporcizia si è passati ad evolutissime attrezzature realizzate con materiali di altissima qualità, ma soprattutto assolutamente inossidabili ed autoestinguenti: laminato massello HPL per fianchi, fondi, ripiani ed ante, alluminio anodizzato per i profili portanti e per le cerniere, acciaio inossidabile e nylon per serrature e finiture.
-Anche le tipologie degli armadietti degli spogliatoi sanitari si sono evolute. 
 
 ------------------
 
@@ -80,8 +132,29 @@ Per facilitare aerazione e igienizzazione gli armadietti per gli spogliatoi sani
 Anche nel settore delle panchine per spogliatoi si sono introdotte innovazioni di grande rilievo. Al posto delle tradizionali panche con struttura in ferro verniciato e doghe in legno, soggette a scheggiarsi e non igienizzabili oltre che combustibili sono state introdotte tipologie in alluminio anodizzato, laminato massello, nylon ed acciaio inossidabile, con soluzioni tecniche d’avanguardia.
 
 
+Gli oggetti modellati per l'ambiente
+- armadietto (Armadietto.js)
+- panca (Panca.js)
+- water (Water.js)
+- lavandino (Lavandino.js)
+- asciugamani (Asciugamani.js)
+- rotolo carta igenica (RotoloCarta.js)
 
+![immagine](http://www.gesgroup.it/wp-content/uploads/2013/05/ARMADI_Variante_L_TI_01-448x238.jpg)
+![immagine](http://www.tuttoscaffali.it/eshop/components/com_virtuemart/shop_image/product/PF_LE_M_1500.jpg)
+![immagine](http://img.archiexpo.it/images_ae/photo-g/lavabo-sospeso-rotondo-moderno-50347-3515619.jpg)
+![immagine](http://www.cetishop.it/public/foto/MG88P-B-LEM.jpg)
+---------------------------------------------------------------------
 
+##Central Store (Central Unit)
 
+E' il luogo dove vengono immagazzinati tutti gli strumenti ospedalieri. E' un ambiente a pianta aperta con grandi corridoi di scaffali. Note le grandi dimensioni di questo ambiente, per semplificare la ricerca degli oggetti disponibili nel magazzino, è presente un sistema informatico.
 
-
+Gli oggetti modellati per l'ambiente:
+- scaffali (Scaffali.js)
+- monitor desktop (MonitorPc.js)
+- torre desktop (TorrePc.js)
+![immagine](http://www.montichiari.spedalicivili.brescia.it/upload/spedalicivili_brescia/gs_fornitori/IMG_1896_14432_643.JPG)
+![immagine](http://www.scaffali.biz/images/lo_scaffale.jpg)
+![immagine](http://www.desktop-driver.com/wp-content/uploads/2013/03/Dell-Dimension-5150-450x337.jpg)
+-------------------------------------------------------------------------------

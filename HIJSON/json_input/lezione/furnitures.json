@@ -1,0 +1,407 @@
+{
+    "id": "furnitures",
+    "type": "FeatureCollection",
+    "features": 
+    [
+
+        {
+            "id": "CarrelloMensa1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "soggiorno",
+                "class": "carrelloMensa",
+                "tVector": [1, 0.12, 0],
+                "rVector": [0, 180, 90]
+        	}
+        },
+        {
+            "id": "CarrelloMensa2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "soggiorno",
+                "class": "carrelloMensa",
+                "tVector": [2, 0.12, 0],
+                "rVector": [0, 180, 90]
+            }
+		},
+        {
+            "id": "TavoloMensa1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "soggiorno",
+                "class": "tavoloMensa",
+                "tVector": [1.5, 5.8, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "soggiorno",
+                "class": "tavoloMensa",
+                "tVector": [3.5, 5.8, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "soggiorno",
+                "class": "tavoloMensa",
+                "tVector": [3.5, 3.5, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "Vassoio1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "soggiorno",
+                "class": "Vassoio",
+                "tVector": [2.3, 0.5, 0.82],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "Vassoio2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "soggiorno",
+                "class": "Vassoio",
+                "tVector": [3.2, 3.1, 0.5],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "Vassoio3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "soggiorno",
+                "class": "Vassoio",
+                "tVector": [3.33, 0.45, 0.86],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "CestinoMensa1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "soggiorno",
+                "class": "CestinoMensa",
+                "tVector": [3.2, 0.4, 0],
+                "rVector": [0, 180, -90]
+            }
+        },
+        {
+            "id": "CestinoMensa2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "soggiorno",
+                "class": "CestinoMensa",
+                "tVector": [4, 0.4, 0],
+                "rVector": [0, 180, -90]
+            }
+        },
+		{
+            "id": "Panca1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "camera_1",
+                "class": "panca",
+                "tVector": [1.7, 2.35, 0.05],
+                "rVector": [90, 0, 0]
+            }
+		},
+		{
+            "id": "Panca2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "camera_1",
+                "class": "panca",
+                "tVector": [2.6, 2.8, 0.05],
+                "rVector": [90, 90, 0]
+            }
+		},
+        {
+            "id": "Armadietto1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "camera_1",
+                "class": "armadietto",
+                "tVector": [4.25, 1.75, 0.75],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "Armadietto1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "camera_1",
+                "class": "armadietto",
+                "tVector": [4.25, 2.75, 0.75],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "Armadietto2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "camera_1",
+                "class": "armadietto",
+                "tVector": [3.25, 0.75, 0.75],
+                "rVector": [90, -90, 0]
+            }
+		},
+        {
+            "id": "Armadietto3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "camera_1",
+                "class": "armadietto",
+                "tVector": [2.25, 0.75, 0.75],
+                "rVector": [90, -90, 0]
+            }
+        },
+        {
+            "id": "Armadietto4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "camera_1",
+                "class": "armadietto",
+                "tVector": [1.25, 0.75, 0.75],
+                "rVector": [90, -90, 0]
+            }
+        },
+        {
+            "id": "Lucidatrice1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "camera_2",
+                "class": "lucidatrice",
+                "tVector": [0.5, 1.5, 0.25],
+                "rVector": [90, -90, 0]
+            }
+        },
+        {
+            "id": "Segnale1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "camera_2",
+                "class": "segnale",
+                "tVector": [1.5, 2.5, 0.25],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "CarrelloPulizie1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "camera_2",
+                "class": "carrelloPulizie",
+                "tVector": [2.75, 2.5, 0.33],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "Espositore1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "soggiorno",
+                "class": "espositore",
+                "tVector": [1.5, 2.7, 0.05],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "Vassoio10",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "soggiorno",
+                "class": "vassoio",
+                "tVector": [2.05, 2.7, 0.95],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "Scaffale1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "cucina",
+                "class": "scaffale",
+                "tVector": [1.05, 2.4, 0.95],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "Scaffale1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "cucina",
+                "class": "scaffale",
+                "tVector": [2.95, 4.3, 0.95],
+                "rVector": [90, 0, 0]
+            }
+        }
+
+
+    ]
+}

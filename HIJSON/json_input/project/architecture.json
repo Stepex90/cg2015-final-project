@@ -1,0 +1,2083 @@
+{
+    "id": "architectures",
+    "type": "FeatureCollection",
+    "features": 
+    [
+        {
+            "type": "Feature",
+            "id": "level_0",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [ 
+                   [ [0, 0], [82.6, 0], [82.6, 117.6], [0, 117.6], [0, 0] ]
+                ]  
+            },
+            "properties": 
+            {
+                "class": "level",
+                "parent": "building",
+                "description": "Mura perimetrali appartamento",
+                "height": 3.5,
+                "thickness": 0.3,
+                "tVector": [0, 0, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+              "type": "Feature",
+              "id": "cssd",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [0, 22.26], [15.52, 22.26], [15.52, 16.8], [22.295, 16.8],[22.295,0],[0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "cssd",
+                    "tVector": [58.1, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffdining",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [0, 31.08], [23.1, 31.08], [23.1, 16.8], [25.2 ,16.8],[25.2, 0] ,[0, 0]]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "staffdining",
+                    "tVector": [32.9, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "housekeeping",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [0, 14.28], [6.775, 14.28], [6.775, 0],[0, 0]]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "housekeeping",
+                    "tVector": [73.62, 16.8, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [0, 7.15], [9.255, 7.15], [9.255, 0],[0, 0]]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "staffchanging",
+                    "tVector": [20.938, 23.94, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [0, 7.15], [4.955, 7.15], [4.955, 0],[0, 0]]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "staffchangig",
+                    "tVector": [4.188, 23.94, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "centralstore",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                      [ [0, 0], [0, 12.6], [-3.875, 12.6], [-3.875, 22.26], [20.505, 22.26], [20.505,2.94], [11.25, 2.94], [11.25, 5.46], [8.625, 5.46], [8.625, 0], [0,0]]             
+                    ]
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "centralstore",
+                    "tVector": [9.688, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffdining_sud",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [25.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffdining-esterno",
+                    "tVector": [32.9, 0, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffdining_sud2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [25.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffdining-esterno",
+                    "tVector": [32.9, 8.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffdining_nord1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [23.2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffdining-esterno",
+                    "tVector": [32.9, 31.08, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffdining_nord2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2.1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffdining-esterno",
+                    "tVector": [56, 16.8, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffdining_ovest",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [31.08, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffdining-esterno",
+                    "tVector": [32.9, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffdining_est1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [14.28, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffdining-esterno",
+                    "tVector": [56, 16.8, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffdining_est2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [16.28, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffdining-esterno",
+                    "tVector": [58.1, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "cssd_nord1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [15.52, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall cssd-esterno",
+                    "tVector": [58.1, 22.26, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "cssd_nord2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6.775, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall housekeeping-esterno",
+                    "tVector": [73.62, 16.8, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },     
+        {
+              "type": "Feature",
+              "id": "cssd_sud",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [22.295, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall cssd-esterno",
+                    "tVector": [58.1, 0, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "cssd_sud2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [22.295, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall cssd-esterno",
+                    "tVector": [58.1, 8.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+         {
+              "type": "Feature",
+              "id": "cssd_sud3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [13.02, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall cssd-esterno",
+                    "tVector": [60.6, 16.8, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "cssd_est",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [16.8, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall cssd-esterno",
+                    "tVector": [80.395, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "cssd_est2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [5.46, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall cssd-esterno",
+                    "tVector": [73.62, 16.8, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "cssd_ovest",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [22.26, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall cssd-esterno",
+                    "tVector": [58.1, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "cssd_ovest2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [13.86, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall cssd-esterno",
+                    "tVector": [60.6, 8.4, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_cssd1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "cssd_nord1",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [0.5, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_cssd2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "cssd_est",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [5, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_cssd3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "cssd_sud2",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [0.5, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_cssd4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "cssd_ovest2",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [3.5, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_cssd5",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "cssd_ovest2",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [10.5, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "housekeeping_nord",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6.775, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall housekeeping-esterno",
+                    "tVector": [73.62, 31.08, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "housekeeping_nord2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [6.775, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall housekeeping-esterno",
+                    "tVector": [73.62, 25.2, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "housekeeping_est",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [14.28, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall housekeeping-esterno",
+                    "tVector": [80.395, 16.8, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "housekeeping_ovest",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [14.28, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall housekeeping-esterno",
+                    "tVector": [73.62, 16.8, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_housekeeping1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "housekeeping_nord",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [3.3, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_housekeeping2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "housekeeping_est",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [5, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_housekeeping3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "housekeeping_nord2",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [3.3, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging1_nord",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [9.255, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffchangig-esterno",
+                    "tVector": [20.938, 31.08, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging1_nord2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.55, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffchangig-esterno",
+                    "tVector": [20.938, 25.45, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging1_sud",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [9.255, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffchangig-esterno",
+                    "tVector": [20.938, 23.93, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging1_est",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [7.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffchangig-esterno",
+                    "tVector": [30.193, 23.93, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging1_ovest",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [7.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffchangig-esterno",
+                    "tVector": [20.938, 23.93, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging1_ovest2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [7.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffchangig-esterno",
+                    "tVector": [24.5, 23.93, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging1_ovest3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.1,
+                    "description": "wall staffchangig-esterno",
+                    "tVector": [22.15, 23.93, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging1_ovest3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1.5, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.1,
+                    "description": "wall staffchangig-esterno",
+                    "tVector": [23.3, 23.93, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_staffchanging1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "staffchanging1_nord",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [7, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_staffchanging2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "staffchanging1_ovest2",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [5.6, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_staffchanging1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [0.8, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "staffchanging1_nord2",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [0.3, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_staffchanging1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [0.8, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "staffchanging1_nord2",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [1.4, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_staffchanging1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [0.8, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "staffchanging1_nord2",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [2.5, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging2_nord",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.925, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffchangig-esterno",
+                    "tVector": [4.188, 31.08, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging2_sud2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1.6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffchangig-esterno",
+                    "tVector": [7.5, 25.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging2_sud",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [4.925, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffchangig-esterno",
+                    "tVector": [4.188, 23.93, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging2_est",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [7.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffchangig-esterno",
+                    "tVector": [9.113, 23.93, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging2_est2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [7.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffchangig-esterno",
+                    "tVector": [7.5, 23.93, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_staffdining1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "staffdining_nord1",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [11, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_staffdining2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "staffdining_ovest",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [20, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_staffdining3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "staffdining_ovest",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [0.4, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_staffdining4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "staffdining_sud2",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [3.5, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_staffdining5",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "staffdining_sud2",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [20.5, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "staffchanging2_ovest",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [7.15, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall staffchangig-esterno",
+                    "tVector": [4.188, 23.93, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_staffchanging2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "staffchanging2_nord",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [0.4, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_staffchanging2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [1, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "staffchanging2_est2",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [5.6, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_staffchanging2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [0.8, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "staffchanging2_sud2",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [0.4, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "centralstore_nord",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [24.38, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [5.813, 22.26, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "centralstore_ovest",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [9.66, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [5.813, 12.6, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "centralstore_ovest2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [12.6, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [9.688, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "centralstore_ovest3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [5.46, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [18.313, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "centralstore_ovest4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2.52, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [20.938, 2.94, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "centralstore_est",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [19.32, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [30.193, 2.94, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "centralstore_sud1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [3.875, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [5.813, 12.6, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "centralstore_sud2",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8.625, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [9.688, 0, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },   
+        {
+              "type": "Feature",
+              "id": "centralstore_sud3",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2.625, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [18.313, 5.46, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        }, 
+        {
+              "type": "Feature",
+              "id": "centralstore_sud4",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [9.255, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [20.938, 2.94, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_centralstore1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "centralstore_nord",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [12.5, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_centralstore1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "centralstore_est",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [7, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "porta_centralstore1",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [2, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "door",
+                    "parent": "centralstore_ovest2",
+                    "thickness": 5,
+                    "description": "Porta ingresso",
+                    "tVector": [10, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "pilastro_centralstore1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                        [[-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 0.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [17, 8.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "pilastro_centralstore2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                      [ [-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 0.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [24.5, 8.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+           {
+              "type": "Feature",
+              "id": "pilastro_centralstore3",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [[-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 1.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [17, 16.8, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "pilastro_centralstore4",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                      [ [-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 0.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [24.5, 16.8, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "pilastro_centralstore5",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                      [ [-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]    
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 0.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [7.5, 16.8, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "pilastro_staffchanging2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                      [ [-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 0.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [7.5, 25.2, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "pilastro_staffchanging1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                      [ [-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 0.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [24.5, 25.2, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "pilastro_staffdining1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                      [ [-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]   
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 0.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [49.7, 8.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },     
+        {
+              "type": "Feature",
+              "id": "pilastro_staffdining2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                      [ [-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]   
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 0.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [49.7, 16.8, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },     
+        {
+              "type": "Feature",
+              "id": "pilastro_staffdining3",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                      [ [-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]   
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 0.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [49.7, 25.2, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },     
+        {
+              "type": "Feature",
+              "id": "pilastro_staffdining4",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                      [ [-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]    
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 0.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [41.3, 8.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },     
+        {
+              "type": "Feature",
+              "id": "pilastro_staffdining5",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                      [ [-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]    
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 0.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [41.3, 16.8, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },      
+        {
+              "type": "Feature",
+              "id": "pilastro_staffdining6",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                      [ [-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 0.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [41.3, 25.2, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },
+           {
+              "type": "Feature",
+              "id": "pilastro_cssd1",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                      [ [-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 0.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [65.6, 8.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },     
+        {
+              "type": "Feature",
+              "id": "pilastro_cssd2",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                      [ [-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]   
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 0.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [65.6, 16.8, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },                         
+        {
+              "type": "Feature",
+              "id": "pilastro_cssd3",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                      [ [-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "thickness": 0.4,
+                    "description": "wall centralstore-esterno",
+                    "tVector": [75.1, 8.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["staffdining"]
+              }
+        },     
+        {
+              "type": "Feature",
+              "id": "pilastro_housekeeping",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                  [ 
+                      [ [-0.2, -0.2], [-0.2, 0.2], [0.2, 0.2], [0.2, -0.2], [-0.2, -0.2] ]
+                  ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "pilastro",
+                    "parent": "level_0",
+                    "description": "wall centralstore-esterno",
+                    "tVector": [75.1, 25.2, 0],
+                    "rVector": [0, 0, 0]
+              }
+        }                                                                                                                                                      
+    ]
+}

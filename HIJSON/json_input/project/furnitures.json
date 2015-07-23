@@ -1,0 +1,957 @@
+{
+    "id": "furnitures",
+    "type": "FeatureCollection",
+    "features": 
+    [
+        {
+            "id": "Lucidatrice1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "housekeeping",
+                "class": "lucidatrice",
+                "tVector": [0.65, 9.5, 0.25],
+                "rVector": [90, -90, 0]
+            }
+        },
+        {
+            "id": "Lucidatrice2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "housekeeping",
+                "class": "lucidatrice",
+                "tVector": [1.65, 9.5, 0.25],
+                "rVector": [90, -90, 0]
+            }
+        },
+        {
+            "id": "BancoLavandino1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]                
+                ]
+            },
+            "properties": 
+            {
+                "parent": "housekeeping",
+                "class": "bancoLavandino",
+                "height": 0.8,
+                "tVector": [0.45, 3.1, 0.05],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "Banco1",
+            "type": "Feature",
+            "geometry": 
+            {
+              "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "housekeeping",
+                "class": "banco",
+                "height": 0.8,
+                "tVector": [0.45, 4.8, 0.05],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "BancoLavandino2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]                
+                ]
+            },
+            "properties": 
+            {
+                "parent": "housekeeping",
+                "class": "bancoLavandino",
+                "height": 0.8,
+                "tVector": [0.45, 6.5, 0.05],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "Segnale1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "housekeeping",
+                "class": "segnale",
+                "tVector": [2.6, 11.5, 0.25],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "CarrelloPulizie1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "housekeeping",
+                "class": "carrelloPulizie",
+                "tVector": [1.3, 11.5, 0.33],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "CarrelloPulizie2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "housekeeping",
+                "class": "carrelloPulizie",
+                "tVector": [1.3, 12.5, 0.33],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "CarrelloPulizie2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "housekeeping",
+                "class": "carrelloPulizie",
+                "height": 2.2,
+                "tVector": [2.6, 13, 0.33],
+                "rVector": [90, -90, 0]
+            }
+        },
+        {
+            "id": "Scaffale1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "housekeeping",
+                "class": "scaffale",
+                "height": 2.2,
+                "tVector": [6.4, 1.22, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "housekeeping",
+                "class": "scaffale",
+                "height": 2.2,
+                "tVector": [2.52, 0.4, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Scaffale3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "housekeeping",
+                "class": "scaffale",
+                "height": 2.2,
+                "tVector": [6.4, 11, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Carrello1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "carrello",
+                "tVector": [1, 0.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+        {
+            "id": "Carrello2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "carrello",
+                "tVector": [1.75, 0.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },       
+        {
+            "id": "Sterilizzatore1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                    [[0, 0], [1.75, 0], [1.75, 1], [0, 1]]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "sterilizzatore",
+                "height": 1,
+                "tVector": [6.25, 0.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Sterilizzatore2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                    [[0, 0], [1.75, 0], [1.75, 1], [0, 1]]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "sterilizzatore",
+                "height": 1,
+                "tVector": [8.01, 0.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Sterilizzatore3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                    [[0, 0], [1.75, 0], [1.75, 1], [0, 1]]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "sterilizzatore",
+                "height": 1,
+                "tVector": [9.77, 0.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Sterilizzatore4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                    [[0, 0], [1.75, 0], [1.75, 1], [0, 1]]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "sterilizzatore",
+                "height": 1,
+                "tVector": [11.53, 0.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Sterilizzatore5",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                    [[0, 0], [1.75, 0], [1.75, 1], [0, 1]]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "sterilizzatore",
+                "height": 1,
+                "tVector": [13.29, 0.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Sterilizzatore6",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                    [[0, 0], [1.75, 0], [1.75, 1], [0, 1]]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "sterilizzatore",
+                "height": 1,
+                "tVector": [15.05, 0.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Banco1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "banco",
+                "height": 0.8,
+                "tVector": [9.8, 8, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "BancoLavandino2",
+            "type": "Feature",
+            "geometry": 
+            {
+               "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]  
+                ]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "bancoLavandino",
+                "height": 0.8,
+                "tVector": [11.5, 8, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "Banco2",
+            "type": "Feature",
+            "geometry": 
+            {
+               "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]                
+                ]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "banco",
+                "height": 0.8,
+                "tVector": [13.25, 8, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "BancoLavandino1",
+            "type": "Feature",
+            "geometry": 
+            {
+               "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "bancoLavandino",
+                "height": 0.8,
+                "tVector": [14.95, 8, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "scaffale",
+                "height": 3,
+                "tVector": [22, 1, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "scaffale",
+                "height": 3,
+                "tVector": [15, 17.9, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Orizzontale1.1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "scaffale",
+                "height": 3,
+                "tVector": [10.9, 17, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Scaffale_Orizzontale1.2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "scaffale",
+                "height": 3,
+                "tVector": [7.9, 17, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Scaffale_Orizzontale1.3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "scaffale",
+                "height": 3,
+                "tVector": [4.9, 17, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Scaffale_Orizzontale2.1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "scaffale",
+                "height": 3,
+                "tVector": [10.9, 20.85, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Scaffale_Orizzontale2.2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "scaffale",
+                "height": 3,
+                "tVector": [7.9, 20.85, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Scaffale_Orizzontale2.3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "scaffale",
+                "height": 3,
+                "tVector": [4.9, 20.85, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Banco3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "banco",
+                "height": 0.8,
+                "tVector": [10, 12.5, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "Banco4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "banco",
+                "height": 0.8,
+                "tVector": [8.26, 12.5, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Banco5",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "banco",
+                "height": 0.8,
+                "tVector": [13.5, 12.5, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "Banco6",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "banco",
+                "height": 0.8,
+                "tVector": [11.76, 12.5, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Banco7",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "banco",
+                "height": 0.8,
+                "tVector": [17, 12.5, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "Banco8",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "banco",
+                "height": 0.8,
+                "tVector": [15.26, 12.5, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Carrello3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "carrello",
+                "tVector": [8.5, 8.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+        {
+            "id": "Carrello4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "carrello",
+                "tVector": [9.25, 8.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+        {
+            "id": "Carrello5",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "carrello",
+                "tVector": [8.5, 15.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+        {
+            "id": "Carrello6",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "carrello",
+                "tVector": [9.25, 15.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+           {
+            "id": "Carrello3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "carrello",
+                "tVector": [12, 8.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+        {
+            "id": "Carrello4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "carrello",
+                "tVector": [12.75, 8.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+        {
+            "id": "Carrello5",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "carrello",
+                "tVector": [12, 15.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+        {
+            "id": "Carrello10",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "carrello",
+                "tVector": [12.75, 15.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+        {
+            "id": "Carrello11",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "carrello",
+                "tVector": [15.5, 8.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+        {
+            "id": "Carrello12",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "carrello",
+                "tVector": [16.25, 8.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+        {
+            "id": "Carrello13",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "carrello",
+                "tVector": [15.5, 15.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+        {
+            "id": "Carrello14",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "cssd",
+                "class": "carrello",
+                "tVector": [15, 15.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        }
+    ]
+}

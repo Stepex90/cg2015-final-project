@@ -1,0 +1,726 @@
+{
+    "id": "furnitures",
+    "type": "FeatureCollection",
+    "features": 
+    [
+        {
+            "id": "Panca1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1, 0], [1, 0.5], [0, 0.5]]                
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "panca",
+                "height": 0.4,
+                "tVector": [6.15, 2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Panca2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1, 0], [1, 0.5], [0, 0.5]]                
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "panca",
+                "height": 0.4,
+                "tVector": [4.9, 2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Panca3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1, 0], [1, 0.5], [0, 0.5]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "panca",
+                "height": 0.4,
+                "tVector": [7.18, 3.75, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Panca4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1, 0], [1, 0.5], [0, 0.5]]                
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "panca",
+                "height": 0.4,
+                "tVector": [7.18, 2.5, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Asciugamani",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "asciugamani",
+                "tVector": [0.5, 2.7, 1.2],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Lavandino2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "lavandino",
+                "tVector": [0.5, 3.3, 0.75],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Lavandino3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "lavandino",
+                "tVector": [0.5, 4.1, 0.75],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Lavandino2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "lavandino",
+                "tVector": [0.5, 4.9, 0.75],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Lavandino3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "lavandino",
+                "tVector": [0.5, 5.7, 0.75],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Asciugamani",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "asciugamani",
+                "tVector": [0.5, 6.2, 1.2],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Water1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "water",
+                "tVector": [0.65, 0.75, 0.25],
+                "rVector": [90, 180, 0]
+            }
+        },
+        {
+            "id": "Water2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "water",
+                "tVector": [1.75, 0.75, 0.25],
+                "rVector": [90, 180, 0]
+            }
+        },
+        {
+            "id": "Water3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "water",
+                "tVector": [2.85, 0.75, 0.25],
+                "rVector": [90, 180, 0]
+            }
+        },
+        {
+            "id": "RotoloCarta1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "rotoloCarta",
+                "tVector": [0.25, 0.75, 0.25],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "RotoloCarta2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "rotoloCarta",
+                "tVector": [1.4, 0.75, 0.25],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "RotoloCarta3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "rotoloCarta",
+                "tVector": [2.5, 0.75, 0.25],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Armadietto1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]                
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "armadietto",
+                "height": 1.8,
+                "tVector": [8.2, 1, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Armadietto2",
+            "type": "Feature",
+            "geometry": 
+            {
+               "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]                
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "armadietto",
+                "height": 1.8,
+                "tVector": [8.2, 1.8, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Armadietto3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]                
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "armadietto",
+                "height": 1.8,
+                "tVector": [8.2, 2.6, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Armadietto4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "armadietto",
+                "height": 1.8,
+                "tVector": [8.2, 3.4, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Armadietto5",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]                
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "armadietto",
+                "height": 1.8,
+                "tVector": [7.35, 1, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "Armadietto6",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "armadietto",
+                "height": 1.8,
+                "tVector": [6.55, 1, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "Armadietto7",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]                
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "armadietto",
+                "height": 1.8,
+                "tVector": [5.75, 1, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "Armadietto8",
+            "type": "Feature",
+            "geometry": 
+            {
+               "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "armadietto",
+                "height": 1.8,
+                "tVector": [4.95, 1, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "Armadietto9",
+            "type": "Feature",
+            "geometry": 
+            {
+               "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging1",
+                "class": "armadietto",
+                "height": 1.8,
+                "tVector": [4.15, 1, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "Armadietto10",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging2",
+                "class": "armadietto",
+                "height": 1.8,
+                "tVector": [1.55, 0.8, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "Armadietto11",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging2",
+                "class": "armadietto",
+                "height": 1.8,
+                "tVector": [0.75, 0.8, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "Armadietto12",
+            "type": "Feature",
+            "geometry": 
+            {
+               "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging2",
+                "class": "armadietto",
+                "height": 1.8,
+                "tVector": [2.35, 0.8, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Armadietto13",
+            "type": "Feature",
+            "geometry": 
+            {
+               "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]                
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffchanging2",
+                "class": "armadietto",
+                "height": 1.8,
+                "tVector": [2.35, 1.6, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Armadietto14",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]                
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffchanging2",
+                "class": "armadietto",
+                "height": 1.8,
+                "tVector": [2.35, 2.4, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Armadietto15",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [0.8, 0], [0.8, 0.8], [0, 0.8]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging2",
+                "class": "armadietto",
+                "height": 1.8,
+                "tVector": [2.35, 3.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Panca5",
+            "type": "Feature",
+            "geometry": 
+            {
+               "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1, 0], [1, 0.5], [0, 0.5]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging2",
+                "class": "panca",
+                "height": 0.4,
+                "tVector": [1.3, 2.5, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Panca6",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1, 0], [1, 0.5], [0, 0.5]]                
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffchanging2",
+                "class": "panca",
+                "height": 0.4,
+                "tVector": [1.3, 1.45, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Water1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging2",
+                "class": "water",
+                "tVector": [4.1, 0.75, 0.25],
+                "rVector": [90, 180, 0]
+            }
+        },
+        {
+            "id": "RotoloCarta1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging2",
+                "class": "rotoloCarta",
+                "tVector": [3.6, 0.75, 0.25],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Lavandino2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging2",
+                "class": "lavandino",
+                "tVector": [4.6, 3.3, 0.75],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "Lavandino3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging2",
+                "class": "lavandino",
+                "tVector": [4.6, 4.1, 0.75],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "Asciugamani",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffchanging2",
+                "class": "asciugamani",
+                "tVector": [4.6, 5, 1.2],
+                "rVector": [0, 0, 180]
+            }
+        }
+    ]
+}

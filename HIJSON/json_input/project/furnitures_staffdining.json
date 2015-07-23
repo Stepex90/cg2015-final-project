@@ -1,0 +1,1075 @@
+{
+    "id": "furnitures",
+    "type": "FeatureCollection",
+    "features": 
+    [
+
+        {
+            "id": "CarrelloMensa1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "carrelloMensa",
+                "tVector": [1, 8.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+        {
+            "id": "CarrelloMensa2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "carrelloMensa",
+                "tVector": [2, 8.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+         {
+            "id": "Vassoio_carrello",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "Vassoio",
+                "tVector": [2.3, 9, 0.84],
+                "rVector": [90, 0, 0]
+            }
+        },
+
+        {
+            "id": "CarrelloMensa1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "carrelloMensa",
+                "tVector": [23, 8.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+        {
+            "id": "CarrelloMensa2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "carrelloMensa",
+                "tVector": [24, 8.6, 0],
+                "rVector": [0, 180, 90]
+            }
+        },
+         {
+            "id": "Vassoio_carrello",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "Vassoio",
+                "tVector": [24.3, 9, 0.84],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "Frigo1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                    [[0, 0], [1, 0], [1, 1], [0, 1]]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "frigo",
+                "height":2,
+                "tVector": [7.1, 0.95, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "Frigo2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                    [[0, 0], [1, 0], [1, 1], [0, 1]]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "frigo",
+                "height":2,
+                "tVector": [17, 0.9, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "Cucina1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                    [[0, 0], [1.5, 0], [1.5, 1], [0, 1]]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "cucina",
+                "height": 0.8,
+                "tVector": [8.55, 7.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Cucina2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                    [[0, 0], [1.5, 0], [1.5, 1], [0, 1]]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "cucina",
+                "height": 0.8,
+                "tVector": [10.45, 7.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Cucina3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                    [[0, 0], [1.5, 0], [1.5, 1], [0, 1]]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "cucina",
+                "height": 0.8,
+                "tVector": [12.4, 7.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Cucina4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                    [[0, 0], [1.5, 0], [1.5, 1], [0, 1]]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "cucina",
+                "height": 0.8,
+                "tVector": [14.35, 7.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        }, 
+        {
+            "id": "Banco1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]                
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "banco",
+                "height": 0.8,
+                "tVector": [8.8, 0.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "BancoLavandino2",
+            "type": "Feature",
+            "geometry": 
+            {
+               "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]  
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "bancoLavandino",
+                "height": 0.8,
+                "tVector": [10.5, 0.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Banco2",
+            "type": "Feature",
+            "geometry": 
+            {
+               "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]                
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "banco",
+                "height": 0.8,
+                "tVector": [12.2, 0.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "BancoLavandino1",
+            "type": "Feature",
+            "geometry": 
+            {
+               "type": "Polygon",
+                "coordinates":
+                [
+                    [[0, 0], [1.7, 0], [1.7, 0.7], [0, 0.7]]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "bancoLavandino",
+                "height": 0.8,
+                "tVector": [13.9, 0.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "Scaffale1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "scaffale",
+                "height": 2.2,
+                "tVector": [1.1, 5.2, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale2",
+            "type": "Feature",
+            "geometry": 
+            {
+              "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "scaffale",
+                "height": 2.2,
+                "tVector": [24.8, 4.2, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "scaffale",
+                "height": 2.2,
+                "tVector": [24.8, 1.2, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "TavoloMensa1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [4, 18, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [7, 18, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [4, 14, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa4",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [7, 14, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa5",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [10, 18, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa6",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [13, 18, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa7",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [10, 14, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa8",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [13, 14, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa9",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [16, 18, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa10",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [19, 18, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa11",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [16, 14, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa12",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [19, 14, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa13",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [4, 26.5, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa14",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [7, 26.5, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa15",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [4, 22, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa16",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [7, 22, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa17",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [10, 26.5, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa18",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [13, 26.5, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa19",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [10, 22, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa20",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [13, 22, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa21",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [16, 26.5, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa22",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [19, 26.5, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa23",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [16, 22, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "TavoloMensa24",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1.25, 0], [1.25, 2], [0, 2] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "tavoloMensa",
+                "height": 0.8,
+                "tVector": [19, 22, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+         {
+            "id": "Distributore1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "distributore",
+                "tVector": [0.5, 15.5, 0.75],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "Bicchiere1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "bicchiere",
+                "tVector": [0.62, 15.5, 1.87],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "Distributore2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "distributore",
+                "tVector": [0.5, 25.5, 0.75],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "Bicchiere2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "bicchiere",
+                "tVector": [0.62, 25.5, 1.87],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "Distributore3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "distributore",
+                "tVector": [22.5, 25.5, 0.75],
+                "rVector": [90, 180, 0]
+            }
+        },
+        {
+            "id": "Vassoio_tavolo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "Vassoio",
+                "tVector": [4.2, 14.9, 0.55],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "Vassoio_cestino",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "Vassoio",
+                "tVector": [0.5, 10.35, 0.86],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "CestinoMensa1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "CestinoMensa",
+                "tVector": [24.6, 10.45, 0],
+                "rVector": [0, 180, 180]
+            }
+        },
+        {
+            "id": "CestinoMensa2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "CestinoMensa",
+                "tVector": [0.5, 10.45, 0],
+                "rVector": [0, 180, 0]
+            }
+        },
+          {
+            "id": "Espositore1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                   [ [0, 0], [3, 0], [3, 1], [0, 1] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "espositore",
+                "height": 1,
+                "tVector": [7, 10, 0],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "Espositore2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                   [ [0, 0], [3, 0], [3, 1], [0, 1] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "espositore",
+                "height": 1,
+                "tVector": [10.5, 10, 0.05],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "Espositore3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                   [ [0, 0], [3, 0], [3, 1], [0, 1] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "espositore",
+                "height": 1,
+                "tVector": [14, 10, 0.05],
+                "rVector": [90, 90, 0]
+            }
+        },
+        {
+            "id": "VassoioEspositore",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "staffdining",
+                "class": "vassoio",
+                "tVector": [12, 11.25, 1],
+                "rVector": [90, 0, 0]
+            }
+        }
+     
+    ]
+}

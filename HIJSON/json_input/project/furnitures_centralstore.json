@@ -1,0 +1,730 @@
+{
+    "id": "furnitures",
+    "type": "FeatureCollection",
+    "features": 
+    [ 
+        {
+            "id": "Scaffale_Verticale1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [1.2, 0.4, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale1.2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [1.2, 3.4, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [4.43, 0.4, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale2.2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [4.43, 3.4, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale3.1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [7.36, 0.4, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale3.2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [7.36, 3.4, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [12.95, 3.16, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale1.2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [12.95, 6.15, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [16, 3.16, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale2.8",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [16, 6.15, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [19, 3.16, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale3.2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [19, 6.15, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale0",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [-2.1, 19, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale1.2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [0.37, 16, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale1.3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [0.37, 19, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [3.4, 13.01, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale2.2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [3.4, 16, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale2.3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [3.4, 19, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [6.33, 13.01, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale3.2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [6.33, 16, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale3.3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [6.33, 19, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [12.95, 13.01, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale1.2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [12.95, 16, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale1.3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [12.95, 19, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [16, 13.01, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale2.8",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [16, 16, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale2.3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [16, 19, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [19, 13.01, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale3.2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [19, 16, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Scaffale_Verticale3.3",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+            "coordinates": 
+                [
+                   [ [0, 0], [3, 0], [3, 0.7], [0, 0.7] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "scaffale",
+                "height": 2.8,
+                "tVector": [19, 19, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "MonitorPc1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+                
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "monitorPc",
+                "tVector": [9.7, 6, 0.82],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "TorrePc1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "torrePc",
+                "tVector": [9.2, 6, 0.82],
+                "rVector": [0, 0, 90]
+            }
+        },
+         {
+            "id": "MonitorPc2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates":  [0, 0]
+               
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "monitorPc",
+                "tVector": [10.7, 6, 0.82],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "TorrePc2",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+        
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "torrePc",
+                "tVector": [10.2, 6, 0.82],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "Tavolo1",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [0, 0], [1, 0], [1, 2.6], [0, 2.6] ]
+                ]
+
+            },
+            "properties": 
+            {
+                "parent": "centralstore",
+                "class": "table",
+                "height": 0.8,
+                "tVector": [11.25, 5.6, 0],
+                "rVector": [0, 0, 90]
+            }
+        }
+
+      
+    ]
+}
