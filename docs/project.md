@@ -18,13 +18,13 @@ Vediamo in dettaglio i reparti realizzati:
 
 I dati di partenza sono le dimensioni degli ambienti, ricavati utilizzando il programma Illustrator sulla planimetria riportata nell'immagine successiva
 
-![immagine](/home/stepex/cg2015-final-project/docs/plan1.png)
+![immagine](/home/stepex/cg2015-final-project/HIJSON/docs/plan1.png)
 
 --------------------------------------------------------------------
 
 Il primo passo nella realizzazione del progetto è stato, a partire dal file in formato svg, la realizzazione del modello, andando a creando i muri perimetrali degli ambienti, per poi suddividerli internamente a seconda delle esigenze di utilizzo, ed aggiungendo i punti di accesso agli stessi, ottenendo il risultato riportato in figura
 
-![immagine](/home/stepex/cg2015-final-project/docs/plan2.png)
+![immagine](/home/stepex/cg2015-final-project/HIJSON/docs/plan2.png)
 
 ---------------------------------------------------------------
 
