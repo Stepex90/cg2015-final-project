@@ -24,7 +24,7 @@ I dati di partenza sono le dimensioni degli ambienti, ricavati utilizzando il pr
 
 Il primo passo nella realizzazione del progetto è stato, a partire dal file in formato svg, la realizzazione del modello, andando a creando i muri perimetrali degli ambienti, per poi suddividerli internamente a seconda delle esigenze di utilizzo, ed aggiungendo i punti di accesso agli stessi, ottenendo il risultato riportato in figura
 
-![immagine](https://scontent-mxp1-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/11742854_10207139322669514_7953518278933777924_n.jpg?oh=d0fb8b8b8dffb484bb3f3c1291b340a3&oe=5613FBEC)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/plan2.png?raw=true)
 
 ---------------------------------------------------------------
 
@@ -40,6 +40,7 @@ Nella prima zona gli oggetti modellati sono:
 
 - cucina (Cucina.js)
 ![immagine](http://www.domstore.it/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/l/o/lofra-cucina-gas-plg96gvt-c.jpg)
+![immagine](https://github.com/Stepex90/cg2015-final-project/blob/master/docs/cucina.png?raw=true)
 
 - frigorifero (Frigo.js)
 ![immagine](http://www.gruppoincasso.it/prodotti/050920121209195373_pic.jpg)
