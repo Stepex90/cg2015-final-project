@@ -18,7 +18,7 @@ Vediamo in dettaglio i reparti realizzati:
 
 I dati di partenza sono le dimensioni degli ambienti, ricavati utilizzando il programma Illustrator sulla planimetria riportata nell'immagine successiva
 
-![immagine](https://scontent-mxp1-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/11235330_10207139322629513_2141051163987285655_n.jpg?oh=1488aaea2106828a62bc3d78fbb16931&oe=56548924)
+![immagine](https://photos-5.dropbox.com/t/2/AABN--Rj1chC1cTQ_rZ9_g31ZVDaCqsVctyDePMChLVthw/12/113437454/png/32x32/1/_/1/2/plan1.png/ELGaylcY-soIIAEgAigB/kBLlSXP7P3F0eV-oqW3475R4ErfVN50lkzwtKcoJPTU?size=1024x768&size_mode=2)
 
 --------------------------------------------------------------------
 
@@ -39,30 +39,38 @@ Le mense ospedaliere per il personale sono delle grandi aree di solito a pianta 
 Nella prima zona gli oggetti modellati sono:
 
 - cucina (Cucina.js)
+![immagine](http://www.domstore.it/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/l/o/lofra-cucina-gas-plg96gvt-c.jpg)
+
 - frigorifero (Frigo.js)
+![immagine](http://www.gruppoincasso.it/prodotti/050920121209195373_pic.jpg)
+
 - bancone (Banco.js)
+
 - bancone con lavandino (BancoLavandino.js)
-- scaffale (Scaffale.js)
+![immagine](http://www.macchineprofessionali.it/images/stories/virtuemart/product/studio12/lavarm2pssx.jpg)
 
 Nella seconda zona gli oggetti modellati sono:
 
-- tavolo con quattro posti a sedere (TavoloMensa.js)
-- espositore alimenti (Espositore.js)
 - vassoio (Vassoio.js)
 - bicchiere (Bicchiere.js)
-- distributore bevande (Distributore.js)
-- cestino (CestinoMensa.js)
-- carrello raccolta vassoi (CarrelloMensa.js)
 
-------------------
+- tavolo con quattro posti a sedere (TavoloMensa.js)
 ![immagine](http://www.supino.it/images/prodotti/ufficio/accessori-ufficio/tavoli-pieghevoli/tavoli-mensa-ufficio-06.jpg)
+
+- espositore alimenti (Espositore.js)
 ![immagine](http://www.herrmann-grosskuechen.de/root/img/pool/hhlkr_referenzen/UKE_Mensa/1_Salatausgabe_gross.jpg)
+
+- carrello raccolta vassoi (CarrelloMensa.js)
 ![immagine](http://img4.annuncicdn.it/40/fc/40fc872d644c6161dc91bfe3ded96215_orig.jpg)
+
+- cestino (CestinoMensa.js)
 ![immagine](http://www.tuttoscaffali.it/eshop/components/com_virtuemart/shop_image/product/svuota-vassoi_701.jpg)
+
+- distributore bevande (Distributore.js)
 ![immagine](http://acqualys.foreach.it/erogatori/wp-content/uploads/2015/04/acqualys-c1.jpg)
-![immagine](http://www.domstore.it/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/l/o/lofra-cucina-gas-plg96gvt-c.jpg)
-![immagine](http://www.gruppoincasso.it/prodotti/050920121209195373_pic.jpg)
-![immagine](http://www.macchineprofessionali.it/images/stories/virtuemart/product/studio12/lavarm2pssx.jpg)
+
+
+
 
 ------------------
 
@@ -84,13 +92,16 @@ Nella seconda zona gli oggetti modellati sono:
 
 Gli oggetti modellati per l'ambiente:
 - sterilizzatore a vapore (Sterilizzatore.js)
+![immagine](http://www.gilbert-ash.com/databaseImages/prd_1165996__critical_care_washers.jpg)
+
 - bancone (Banco.js)
+![immagine](http://fotostore.aruba.it/fotoalbum_automaticlavello_it/Data/0ca827c72b/d0f1d20b7d0.JPG)
+
 - bancone con lavandino (BancoLavandino.js)
 - scaffali (Scaffale.js)
 - carrelli (Carrello.js)
 
-![immagine](http://fotostore.aruba.it/fotoalbum_automaticlavello_it/Data/0ca827c72b/d0f1d20b7d0.JPG)
-![immagine](http://www.gilbert-ash.com/databaseImages/prd_1165996__critical_care_washers.jpg)
+
 
 -------------------------------------
 
@@ -103,12 +114,15 @@ I dipendenti sono dotati di diverse attrezzature, il più comune è il carello d
 
 Gli oggetti modellati per l'ambiente:
 - carrello delle pulizie (CarrelloPulizie.js)
-- lucidatrice pavimenti (Lucidatrice.js)
-- segnale pavimento bagnato (Segnale.js)
-
 ![immagine](http://www.acquistiverdi.it/sites/default/files/imagecache/Original_confirma/images/prodotti/carrello_multiuso_alpha_filmop_0.jpg)
 
+- lucidatrice pavimenti (Lucidatrice.js)
 ![immagine](http://i00.i.aliimg.com/photo/v0/60169008106_1/Hospital_Floor_Cleaning_Machine_Cart_Battery_Type.jpg)
+
+- segnale pavimento bagnato (Segnale.js)
+![immagine](http://ecx.images-amazon.com/images/I/31eb8t7s%2BzL.jpg)
+
+
 
 ------------------------------------
 
@@ -134,27 +148,35 @@ Anche nel settore delle panchine per spogliatoi si sono introdotte innovazioni d
 
 Gli oggetti modellati per l'ambiente
 - armadietto (Armadietto.js)
+![immagine](http://www.gesgroup.it/wp-content/uploads/2013/05/ARMADI_Variante_L_TI_01-448x238.jpg)
+
 - panca (Panca.js)
+![immagine](http://www.tuttoscaffali.it/eshop/components/com_virtuemart/shop_image/product/PF_LE_M_1500.jpg)
+
 - water (Water.js)
 - lavandino (Lavandino.js)
+![immagine](http://img.archiexpo.it/images_ae/photo-g/lavabo-sospeso-rotondo-moderno-50347-3515619.jpg)
 - asciugamani (Asciugamani.js)
+![immagine](http://www.cetishop.it/public/foto/MG88P-B-LEM.jpg)
 - rotolo carta igenica (RotoloCarta.js)
 
-![immagine](http://www.gesgroup.it/wp-content/uploads/2013/05/ARMADI_Variante_L_TI_01-448x238.jpg)
-![immagine](http://www.tuttoscaffali.it/eshop/components/com_virtuemart/shop_image/product/PF_LE_M_1500.jpg)
-![immagine](http://img.archiexpo.it/images_ae/photo-g/lavabo-sospeso-rotondo-moderno-50347-3515619.jpg)
-![immagine](http://www.cetishop.it/public/foto/MG88P-B-LEM.jpg)
+
+
+
+
 ---------------------------------------------------------------------
 
 ##Central Store (Central Unit)
 
 E' il luogo dove vengono immagazzinati tutti gli strumenti ospedalieri. E' un ambiente a pianta aperta con grandi corridoi di scaffali. Note le grandi dimensioni di questo ambiente, per semplificare la ricerca degli oggetti disponibili nel magazzino, è presente un sistema informatico.
 
+![immagine](http://www.montichiari.spedalicivili.brescia.it/upload/spedalicivili_brescia/gs_fornitori/IMG_1896_14432_643.JPG)
+
 Gli oggetti modellati per l'ambiente:
 - scaffali (Scaffali.js)
+![immagine](http://www.scaffali.biz/images/lo_scaffale.jpg)
+
 - monitor desktop (MonitorPc.js)
 - torre desktop (TorrePc.js)
-![immagine](http://www.montichiari.spedalicivili.brescia.it/upload/spedalicivili_brescia/gs_fornitori/IMG_1896_14432_643.JPG)
-![immagine](http://www.scaffali.biz/images/lo_scaffale.jpg)
 ![immagine](http://www.desktop-driver.com/wp-content/uploads/2013/03/Dell-Dimension-5150-450x337.jpg)
 -------------------------------------------------------------------------------
