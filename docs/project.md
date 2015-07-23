@@ -18,13 +18,13 @@ Vediamo in dettaglio i reparti realizzati:
 
 I dati di partenza sono le dimensioni degli ambienti, ricavati utilizzando il programma Illustrator sulla planimetria riportata nell'immagine successiva
 
-![immagine](https://www.dropbox.com/s/nhlafabieygus1q/plan1.png?dl=0)
+![immagine](https://photos-5.dropbox.com/t/2/AABN--Rj1chC1cTQ_rZ9_g31ZVDaCqsVctyDePMChLVthw/12/113437454/png/32x32/1/_/1/2/plan1.png/ELGaylcY-soIIAEgAigB/kBLlSXP7P3F0eV-oqW3475R4ErfVN50lkzwtKcoJPTU?size=1024x768&size_mode=2)
 
 --------------------------------------------------------------------
 
 Il primo passo nella realizzazione del progetto è stato, a partire dal file in formato svg, la realizzazione del modello, andando a creando i muri perimetrali degli ambienti, per poi suddividerli internamente a seconda delle esigenze di utilizzo, ed aggiungendo i punti di accesso agli stessi, ottenendo il risultato riportato in figura
 
-![immagine](https://www.dropbox.com/s/5kokpbohgkqlc4u/plan2.png?dl=0)
+![immagine](https://photos-3.dropbox.com/t/2/AACR2s1uOfQnSOtRGsW1-e-rRYo3urkBfAU-thvfUuLhUQ/12/113437454/png/32x32/1/_/1/2/plan2.png/ELGaylcY-soIIAEgAigB/53GBgOmJEp0BLBSOJu3AF1Ld_2ytOyARMMRT89qIgkM?size=1024x768&size_mode=2)
 
 ---------------------------------------------------------------
 
@@ -76,7 +76,7 @@ Nella seconda zona gli oggetti modellati sono:
 
  Le operazioni consistono solitamente di pulizia dei dispositivi utilizzati in precedenza, come utensili in acciaio inox, con un liquido sterilizzante. Dopo essiccamento del dispositivo su un supporto (non a mano o un panno) Viene avvolto in un sacchetto di carta speciale (chiamato un sacchetto aseptor), nastro sigillato e poi sterilizzata mediante gas o in autoclave a vapore. Una data di scadenza viene scritta sulle apparecchiature o sugli oggetti di consumo che sono inpacchettati, prima di essere consegnato all'utente finale come prodotto sterile. Il processo svolto è facilmente suddividibile in tre fasi come riporato nella figura seguente
 
-![immagine](https://www.dropbox.com/s/6ed3qz4fxualuzv/cssd.jpg?dl=0)
+![immagine](https://photos-4.dropbox.com/t/2/AACnK2Q91GU9fDWffsNT4p45ZA3_VxFLamh5R8C2xDNbnQ/12/113437454/jpeg/32x32/1/_/1/2/cssd.jpg/ELGaylcY-soIIAEgAigB/qtbvAXUbXSaJRr65BuEQf97gQVzuzD6Qooo5UjikHKU?size=1024x768&size_mode=2)
 
 - Nella prima fase la strumentazione viene lavata prima immergendoli in un liquido di sterilizzazione e poi viene messa negli sterilizzatori a vapore ad alta temperatura
 - Nella seconda fase la strumentazione sterilizzata viene impacchettata 
