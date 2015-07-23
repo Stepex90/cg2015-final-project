@@ -18,13 +18,13 @@ Vediamo in dettaglio i reparti realizzati:
 
 I dati di partenza sono le dimensioni degli ambienti, ricavati utilizzando il programma Illustrator sulla planimetria riportata nell'immagine successiva
 
-![immagine](/cg2015-final-project/docs/plan1.png)
+![immagine](https://www.dropbox.com/s/nhlafabieygus1q/plan1.png?dl=0)
 
 --------------------------------------------------------------------
 
 Il primo passo nella realizzazione del progetto è stato, a partire dal file in formato svg, la realizzazione del modello, andando a creando i muri perimetrali degli ambienti, per poi suddividerli internamente a seconda delle esigenze di utilizzo, ed aggiungendo i punti di accesso agli stessi, ottenendo il risultato riportato in figura
 
-![immagine](/cg2015-final-project/docs/plan2.png)
+![immagine](https://www.dropbox.com/s/5kokpbohgkqlc4u/plan2.png?dl=0)
 
 ---------------------------------------------------------------
 
@@ -76,7 +76,7 @@ Nella seconda zona gli oggetti modellati sono:
 
  Le operazioni consistono solitamente di pulizia dei dispositivi utilizzati in precedenza, come utensili in acciaio inox, con un liquido sterilizzante. Dopo essiccamento del dispositivo su un supporto (non a mano o un panno) Viene avvolto in un sacchetto di carta speciale (chiamato un sacchetto aseptor), nastro sigillato e poi sterilizzata mediante gas o in autoclave a vapore. Una data di scadenza viene scritta sulle apparecchiature o sugli oggetti di consumo che sono inpacchettati, prima di essere consegnato all'utente finale come prodotto sterile. Il processo svolto è facilmente suddividibile in tre fasi come riporato nella figura seguente
 
-![immagine](/home/stepex/cg2015-final-project/docs/cssd.jpg)
+![immagine](https://www.dropbox.com/s/6ed3qz4fxualuzv/cssd.jpg?dl=0)
 
 - Nella prima fase la strumentazione viene lavata prima immergendoli in un liquido di sterilizzazione e poi viene messa negli sterilizzatori a vapore ad alta temperatura
 - Nella seconda fase la strumentazione sterilizzata viene impacchettata 
