@@ -50,11 +50,11 @@ var self = module.exports = {
 	    scene.add(ambientLight);
 	    
 	    var spotLight = new THREE.SpotLight(0xFFFFFF);
-	    spotLight.position.set(-40,280,-50);
+	    spotLight.position.set(-400,280,-500);
 	    scene.add( spotLight );
 	    
 	    var spotLight2 = new THREE.SpotLight(0xFFFFFF);
-	    spotLight2.position.set(50,280,60);
+	    spotLight2.position.set(500,280,600);
 	    scene.add( spotLight2 );
 
 	    //var axisHelper = new THREE.AxisHelper(3);
